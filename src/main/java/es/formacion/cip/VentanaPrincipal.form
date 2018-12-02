@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="es.formacion.cip.VentanaPrincipal">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="9" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="451"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="23080" class="javax.swing.JButton" binding="conectarButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Conectar"/>
+        </properties>
+      </component>
+      <component id="4067" class="javax.swing.JButton" binding="listarFicherosButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Listar Ficheros"/>
+        </properties>
+      </component>
+      <component id="da0c5" class="javax.swing.JButton" binding="subirFicheroButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Subir Fichero"/>
+        </properties>
+      </component>
+      <component id="dc0b0" class="javax.swing.JButton" binding="directorioActualButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Directorio Actual"/>
+        </properties>
+      </component>
+      <component id="55e88" class="javax.swing.JButton" binding="irADirectorioPadreButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ir a Directorio Padre"/>
+        </properties>
+      </component>
+      <component id="5b5ca" class="javax.swing.JButton" binding="cambiarDirectorioButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Cambiar Directorio"/>
+        </properties>
+      </component>
+      <component id="f3445" class="javax.swing.JButton" binding="desconectarButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Desconectar"/>
+        </properties>
+      </component>
+      <component id="f59db" class="javax.swing.JButton" binding="borrarFicheroDirectorioActualButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Borrar Fichero (Directorio Actual)"/>
+        </properties>
+      </component>
+      <component id="af1c" class="javax.swing.JButton" binding="borrarFicheroEspecifiqueDirectorioButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Borrar Fichero (Especifique Directorio)"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
