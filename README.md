@@ -7,3 +7,4 @@ Práctica a entregar
 
 Práctica 1. Se cuenta con la siguiente librería clienteFTP.java
 Para ver los detalles, ver el PDF: 
+- [PDF Tarea 3](../master/0490_PSP_Practica_UT04_2018_v1.0.pdf)
