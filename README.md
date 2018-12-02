@@ -60,10 +60,54 @@ Esta ventana recoge los datos necesarios para el metodo subirFichero:
 <img src="http://i67.tinypic.com/eq33sy.jpg" >
 
 Esta ventana recoge los datos necesarios para el metodo cambiarDirectorio 
-Como solamente necesita un parametro, lo pasamos con un JOptionPane.ShowInputDialog
-public void cambiarDirectorio(String directorio) 
+Como solamente necesita un parametro, lo pasamos con un JOptionPane.showInputDialog
+```public void cambiarDirectorio(String directorio) ```
 
+**Boton Borrar fichero (Directorio Actual):**
 
+<img src="http://i66.tinypic.com/2mx0idc.jpg" >
 
+Esta ventana recoge los datos necesarios para el metodo borrarFichero 
+Hemos tenido que crear este metodo en la clase principal:
+```
+public void borrarFichero(String fichero) {
+        try {
+            cliente.deleteFile(fichero);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+ ```
+    
+Como solamente necesita un parametro, lo pasamos con un JOptionPane.showInputDialog
+``` public void borrarFichero(String fichero) ```
 
+**Boton Borrar fichero (Especifique Directorio):**
+<img src="http://i66.tinypic.com/2mx0idc.jpg" >
 
+Hemos tenido que crear este metodo en la clase principal:
+```
+  public void borrarFichero(String directorio, String fichero) {
+        String tmp = directorio + "//" + fichero;
+
+        try {
+            cliente.deleteFile(tmp);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+```
+Hemos optado por crear un String temporal con ambos string que introduce el usuario y concatenandolos para borrar el fichero de un directorio especifico.     
+     
+**Boton Desconectar:**
+Activa el metodo deconectar y muestra un aviso que hemos deconectado:
+<img src="http://i63.tinypic.com/1581ac2.jpg" >
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
