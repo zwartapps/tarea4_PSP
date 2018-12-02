@@ -102,6 +102,7 @@ Hemos optado por crear un String temporal con ambos string que introduce el usua
 **Boton Desconectar:**
 
 Activa el metodo deconectar y muestra un aviso que hemos deconectado:
+
 <img src="http://i63.tinypic.com/1581ac2.jpg" >
     
 En el codigo está todo comentado para entender que hacemos.    
