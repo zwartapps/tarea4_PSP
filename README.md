@@ -83,7 +83,8 @@ Como solamente necesita un parametro, lo pasamos con un JOptionPane.showInputDia
 ``` public void borrarFichero(String fichero) ```
 
 **Boton Borrar fichero (Especifique Directorio):**
-<img src="http://i66.tinypic.com/2mx0idc.jpg" >
+
+<img src="http://i63.tinypic.com/oqvgpx.jpg" >
 
 Hemos tenido que crear este metodo en la clase principal:
 ```
@@ -96,12 +97,14 @@ Hemos tenido que crear este metodo en la clase principal:
             e.printStackTrace();
         }
 ```
-Hemos optado por crear un String temporal con ambos string que introduce el usuario y concatenandolos para borrar el fichero de un directorio especifico.     
+Hemos optado por crear un String temporal con ambos string que introduce el usuario y concatenarlos para borrar el fichero de un directorio especifico.     
      
 **Boton Desconectar:**
+
 Activa el metodo deconectar y muestra un aviso que hemos deconectado:
 <img src="http://i63.tinypic.com/1581ac2.jpg" >
     
+En el codigo está todo comentado para entender que hacemos.    
     
     
     
